@@ -4,9 +4,9 @@ A checkbox custom element written in vanilla JS
 
 Example HTML:
 ```html
-	<button is="fancy-checkbox" id="example-checkbox"></button>
+<button is="fancy-checkbox" id="example-checkbox"></button>
 
-	<label for="example-checkbox">Fancy checkbox</label>
+<label for="example-checkbox">Fancy checkbox</label>
 ```
 
 Example JS:
@@ -14,7 +14,7 @@ Example JS:
 checkbox.checked = true
 
 checkbox.onchange = e => {
-	console.log(e.target.checked)
+    console.log(e.target.checked)
 }
 ```
 
@@ -22,17 +22,17 @@ checkbox.onchange = e => {
 Example CSS:
 ```css
 button.fancy-checkbox {
-	background: #DDD;
-	cursor: pointer;
-	border-radius: 0.4rem;
-	transition: all 100ms;
+    background: #DDD;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    transition: all 100ms;
 }
 
 button.fancy-checkbox > svg {
-	transition: all 100ms;
+    transition: all 100ms;
 }
 
 button.fancy-checkbox.active {
-	background: #006AFF;
+    background: #006AFF;
 }
 ```
