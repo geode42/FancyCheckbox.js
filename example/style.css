@@ -1,0 +1,14 @@
+button.fancy-checkbox {
+	background: #DDD;
+	cursor: pointer;
+	border-radius: 0.4rem;
+	transition: all 100ms;
+}
+
+button.fancy-checkbox > svg {
+	transition: all 100ms;
+}
+
+button.fancy-checkbox.active {
+	background: #006AFF;
+}
